@@ -1,3 +1,18 @@
-body {
-  font-family: sans-serif;
+.part {
+  font-family: "Consolas";
+}
+.hoverme {
+  width: 4em;
+}
+.clear-button {
+  backdrop-filter: blur(3px);
+  background-color: rgb(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 100px;
+  box-shadow: 2px 2px 2px rgb(0 0 0 / 10%);
+  cursor: pointer;
+  gap: 5px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  display: inline-flex;
 }

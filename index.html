@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
 
-<head>
-	<title>Parcel Sandbox</title>
-	<meta charset="UTF-8" />
-</head>
+  <body>
+    <h1>Hello World</h1>
+    <p class="part">This is more than it looks like!</p>
+    <div class="hoverme">
+      <button id="hv1" class="clear-button">Hover me</button>
+    </div>
+    <p class="part" , id="show">Stuff here!</p>
+    <p id="second"></p>
+    <button id="cpstest" class="clear-button">
+      <svg viewBox="0 0 448 512" width="10" title="arrow-down">
+        <path
+          d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z"
+        /></svg
+      >Test CPS
+    </button>
+    <p id="cpsdisplay">Your Cps: 0</p>
+    <p id="highscore">Highscore: 0</p>
+    <button id="resethighscore">reset</button>
+    <br />
+    <button class="clear-button" , id="holddown">Hold down!</button>
+    <p id="holdtimer">Timer: 0</p>
 
-<body>
-	<div id="app"></div>
-
-	<script src="src/index.js">
-	</script>
-</body>
-
+    <script src="src/index.js"></script>
+  </body>
 </html>
